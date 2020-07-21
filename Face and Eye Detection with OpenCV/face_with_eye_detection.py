@@ -4,7 +4,7 @@ face_cascade = cv.CascadeClassifier("haarcascade_frontalface_default.xml")
 eye_cascade = cv.CascadeClassifier("haarcascade_eye_tree_eyeglasses.xml")
 
 
-
+# Video Capturing
 cap = cv.VideoCapture(0)
 
 while cap.isOpened():
