@@ -1,5 +1,5 @@
 import cv2 as cv
-
+# haarcascade file u can download from official repo of opencv
 face_cascade = cv.CascadeClassifier("haarcascade_frontalface_default.xml")
 
 cap = cv.VideoCapture(0)
